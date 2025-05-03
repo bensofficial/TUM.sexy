@@ -431,11 +431,11 @@ class Route {
             'description' => 'Grundlagen der künstlichen Intelligenz',
             'moodle_id'   => '58014',
         ],
-	    'lambda'           => [
-	        'description' => 'Lambda Calculus',
-	        'target'      => 'https://www21.in.tum.de/teaching/lambda/WS23/index.html',
-            'moodle_id'   => '80136',
-	    ],
+	'lambda'           => [
+	    'description' => 'Lambda Calculus',
+	    'target'      => 'https://www21.in.tum.de/teaching/lambda/WS23/index.html',
+	    'moodle_id'   => '80136',
+	],
         'langenacht'       => [
             'description' => 'Lange Nacht der Univeristäten',
             'target'      => 'https://www.facebook.com/events/2681178088623650/',
@@ -456,6 +456,14 @@ class Route {
         'm'                => [
             'description' => 'Moodle',
             'target'      => 'https://www.moodle.tum.de/Shibboleth.sso/Login?providerId=https://tumidp.lrz.de/idp/shibboleth&target=https://www.moodle.tum.de/auth/shibboleth/index.php',
+        ],
+        'ma-ects'          => [
+            'description' => 'Tool to calculate the ects for elective lectures for the Informatics and DEA masters at TUM',
+            'target'      => 'https://tum-courses-m-astertool.vercel.app/',
+        ],
+        'ma-lectures'      => [
+            'description' => 'List of elective lectures that are being offered this semester for the Informatics and DEA masters at TUM, grouped by area of specialization',
+            'target'      => 'https://github.com/Vuenc/TUM-Master-Informatics-Offered-Lectures#tum-master-informatics-dea-offered-lectures',
         ],
         'ma-sp'            => [
             'description' => 'Studienplan M.Sc. Informatik',
